@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f4b9603-9ff8-4f6c-ae48-a1d5ee8468fc" name="Changes" comment="" />
+    <list default="true" id="0f4b9603-9ff8-4f6c-ae48-a1d5ee8468fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Music Website/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Music Website/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Angry_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Angry_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Bright_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Bright_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Chill_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Chill_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Dark_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Dark_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Diljit/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Diljit/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Funky_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Funky_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Love_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Love_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Uplifting_(mood)/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/Uplifting_(mood)/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/cs/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/cs/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/karan aujla/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/karan aujla/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/ncs/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/audio/ncs/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spotify Clone/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/css/utility.css" beforeDir="false" afterPath="$PROJECT_DIR$/Spotify Clone/css/utility.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Clone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spotify Clone/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +45,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2l6XyKxw90OrLFuIEZrkV5XL8ib" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,8 +61,10 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/KKBROTHERS/Desktop/Web Projects",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/KKBROTHERS/Desktop/React/My React",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,6 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724501752376</updated>
       <workItem from="1724501753569" duration="201000" />
+      <workItem from="1726205143037" duration="51000" />
+      <workItem from="1726205202434" duration="118000" />
     </task>
     <servers />
   </component>

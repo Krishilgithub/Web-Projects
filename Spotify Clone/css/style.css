@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +8,255 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  /* background-color: #f1f1f1; */
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.library-section, .main-section{
+  background-color: #121212;
+  /* border: 2px solid yellow; */
+  border-radius: 12px;
+  position: absolute;
+  margin: 0 10px;
+  top: 10%;
+}
+
+.menu-section, .player-section{
+  background-color: #000;
+  width: 100%;
+  /* border: 2px solid red; */
+  position: absolute;
+}
+
+.menu-section{
+  width: 100%;
+  height: 10%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.menu-section .menu-left{
+}
+
+.menu-section .menu-left button{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 9999px;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  transition: .3s linear;
+}
+
+.menu-section .menu-left button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.menu-section .logos{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 30px;
+}
+
+.menu-section .logos .circle{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #000
+}
+
+.menu-section .logos .circle .home{
+  width: 25px;
+  height: 25px;
+  transition: 0.3s linear;
+}
+
+.menu-section .logos .circle .home:hover{
+  /* filter: invert(100%) saturate(0%) brightness(0%); */
+  cursor: pointer;
+  /* background-color: #fff; */
+  transition: .3s linear;
+}
+
+.menu-section .search input{
+  outline: none;
+  border: none;
+  background-color: #121212;
+  color: #b3b3b3;
+  border-radius: 500px;
+  padding: 12px;
+  font-size: 16px;
+  width: 500px;
+  cursor: pointer;
+}
+
+.player-section{
+  width: 100%;
+  height: 15%;
+  bottom: 0;
+}
+
+.library-section{
+  width: 22.5%;
+  height: 75%;
+  left: 0;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.main-section{
+  width: 75%;
+  height: 75%;
+  right: 0;
+  margin-left: 10px;
+}
+
+.library-section .library img{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 10px;
+  left: 0;
+}
+
+.library-section .library{
+  margin-bottom: 65px;
+}
+
+.library-section .library span{
+  color: #b3b3b3;
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  /* margin: 10px 0; */
+}
+
+.library-card{
+  width: 95%;
+  height: 10%;
+  background-color: #121212;
+  /* border: 2px solid red; */
+  color: #b3b3b3;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.song-info{
+  margin-left: 25px;
+}
+
+.img img{
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.player-section{
+  display: flex;
+  align-items: center;
+}
+
+.player-section .playing{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 15px;
+  color: #b3b3b3;
+}
+
+.player-section .playing .img1 img{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;  
+}
+
+.player-section .playing .song-info1{
+  margin-left: 25px;
+}
+
+.player-section .player{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b3b3b3;
+}
+
+.player-section .player .player-control img{
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.player-section .player .seekbar .seek{
+  display: block;
+  width: 750px;
+  height: 2px;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+.player-section .player .seekbar .circle{
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+}
+
+.player-section .volume-control img{
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+}
+
+.player-section .volume-control .seek{
+  display: inline-block;
+  width: 150px;
+  height: 2px;
+  margin-left: 15px;
+  position: absolute;
+  top: 47px;
+  background-color: #fff;
+}
+
+.player-section .volume-control img{
+  cursor: pointer;
+}
+
+.player-section .volume-control .circle{
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 41px;
+}

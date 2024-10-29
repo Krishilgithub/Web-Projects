@@ -1,0 +1,1 @@
+* cursor z-index-8 and all other pages having z-index 9 and position relative

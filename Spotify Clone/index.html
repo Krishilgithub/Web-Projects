@@ -4,11 +4,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/utility.css">
   <title>Spotify Clone</title>
 </head>
 
 <body>
-  <img src="./img/logo.svg" alt="Logo">
+
+  <div class="menu-section">
+    <div class="logos">
+      <img class="invert logo" src="./img/logo.svg" alt="">
+      <div class="circle">
+      <img class="invert home" src="./img/home.svg" alt="">
+      </div>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="What do you want to play?">
+    </div>
+    <div class="menu-left">
+      <button>Sign Up</button>
+      <button>Login</button>
+    </div>
+  </div>
+  <div class="main-section"></div>
+  <div class="library-section">
+    <div class="library">
+      <img class="invert" src="./img/playlist.svg" alt="">
+      <span>Your library</span>
+    </div>
+    <div class="library-card">
+      <div class="img">
+        <img src="./img/image.png" alt="">
+      </div>
+      <div class="song-info">
+        <div class="song-name">Shape Of You</div>
+        <div class="song-subtitle">Ed Sheran</div>
+      </div>
+    </div>
+  </div>
+  <div class="player-section">
+    <div class="playing">
+      <div class="img1">
+        <img src="./img/image.png" alt="">
+      </div>
+      <div class="song-info1">
+        <div class="song-name">Shape Of You</div>
+        <div class="song-subtitle">Ed Sheran</div>
+      </div>
+    </div>
+    <div class="player">
+      <div class="player-control">
+        <img class="invert" src="./img/prevsong.svg" alt="">
+        <img class="invert" src="./img/play.svg" alt="">
+        <img class="invert" src="./img/nextsong.svg" alt="">
+      </div>
+      <div class="seekbar">
+        <span class="circle"></span>
+        <span class="seek"></span>
+      </div>
+    </div>
+    <div class="volume-control">
+      <img class="invert" src="./img/volume.svg" alt="">
+      <span class="seek"></span>
+      <span class="circle"></span>
+    </div>
+  </div>
+
+
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
